@@ -147,7 +147,7 @@
 <body>
   <header>
     <div class="brand">UNICID — Universidade Cidade de São Paulo</div>
-    <div class="muted">Portal de Autenticidade</div>
+    <div class="muted">Portal de Autenticidade Acadêmica</div>
   </header>
 
   <div class="container">
@@ -199,6 +199,14 @@
         inst: 'Universidade Cidade de São Paulo — UNICID',
         date: 'Conclusão em 10/03/2025',
         status: 'Ativo'
+      },
+      '46545-65': {
+        diploma: '46545-65',
+        name: 'Ana Cristina da Silva Lara',
+        degree: 'Mestrado em Educação',
+        inst: 'Universidade Cidade de São Paulo — UNICID',
+        date: 'Conclusão em 10/04/2025',
+        status: 'Ativo'
       }
     };
 
@@ -224,7 +232,7 @@
       }
     });
 
-    // Exemplo de desenho simples da "estrela Cruzeiro do Sul" no canvas
+    // Desenho do diploma no canvas
     const canvas = document.getElementById('previewCanvas');
     const ctx = canvas.getContext('2d');
 
@@ -253,14 +261,15 @@
       ctx.fill();
     }
 
+    // Fundo e texto
     ctx.fillStyle = "#ffffff";
     ctx.fillRect(0, 0, canvas.width, canvas.height);
-    ctx.font = "bold 18px Arial";
+    ctx.font = "bold 20px Arial";
     ctx.fillStyle = "#003b73";
     ctx.fillText("UNICID", 160, 50);
     ctx.font = "14px Arial";
     ctx.fillText("Universidade Cidade de São Paulo", 80, 75);
-    drawStar(370, 220, 5, 15, 6); // estrela Cruzeiro do Sul
+    drawStar(370, 220, 5, 15, 6);
   </script>
 </body>
 

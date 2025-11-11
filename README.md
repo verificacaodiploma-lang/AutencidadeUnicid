@@ -152,7 +152,7 @@
 
   <div class="container">
     <div class="search" role="search" aria-label="Pesquisar diploma">
-      <input id="q" placeholder="Consultar por número do diploma (ex: 54577-75)" aria-label="Número do diploma" />
+      <input id="q" placeholder="Consultar por número do diploma (ex: 46456-64)" aria-label="Número do diploma" />
       <button id="btn">Consultar</button>
     </div>
 
@@ -192,20 +192,20 @@
 
   <script>
     const records = {
-      '54577-75': {
-        diploma: '54577-75',
-        name: 'Jaqueline Kisandre da Silva Santana',
+      '46456-64': {
+        diploma: '46456-64',
+        name: 'Zilda Felipe da Silva',
         degree: 'Mestrado em Educação',
-        inst: 'Universidade Cidade de São Paulo — UNICID',
-        date: 'Conclusão em 10/03/2025',
+        inst: 'Universidade de São Paulo — UNICID',
+        date: 'Conclusão em 15/03/2025',
         status: 'Ativo'
       },
-      '46545-65': {
-        diploma: '46545-65',
-        name: 'Ana Cristina da Silva Lara',
+      '26644-64': {
+        diploma: '26644-64',
+        name: 'Ivani Felipe da Silva',
         degree: 'Mestrado em Educação',
-        inst: 'Universidade Cidade de São Paulo — UNICID',
-        date: 'Conclusão em 10/04/2025',
+        inst: 'Universidade de São Paulo — UNICID',
+        date: 'Conclusão em 10/03/2025',
         status: 'Ativo'
       }
     };
@@ -261,7 +261,7 @@
       ctx.fill();
     }
 
-    // Fundo e texto
+    // Fundo e texto do diploma
     ctx.fillStyle = "#ffffff";
     ctx.fillRect(0, 0, canvas.width, canvas.height);
     ctx.font = "bold 20px Arial";

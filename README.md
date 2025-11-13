@@ -207,6 +207,22 @@
         inst: 'Universidade de São Paulo — UNICID',
         date: 'Conclusão em 10/03/2025',
         status: 'Ativo'
+      },
+      '67865-76': {
+        diploma: '67865-76',
+        name: 'Elisangela Aparecida Ramos',
+        degree: 'Bacharel em Fonoaudiologia',
+        inst: 'Cruzeiro do Sul Virtual',
+        date: 'Conclusão em 16/08/2025',
+        status: 'Ativo'
+      },
+      '54577-75': {
+        diploma: '54577-75',
+        name: 'Jaqueline Kisandre da Silva Santana',
+        degree: 'Mestrado em Educação',
+        inst: 'Universidade Unicid São Paulo',
+        date: 'Conclusão em 10/03/2025',
+        status: 'Ativo'
       }
     };
 

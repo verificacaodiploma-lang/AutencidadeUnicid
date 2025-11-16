@@ -223,6 +223,14 @@
         inst: 'Universidade Unicid São Paulo',
         date: 'Conclusão em 10/03/2025',
         status: 'Ativo'
+      },
+      '57755-42': {
+        diploma: '57755-42',
+        name: 'Josilene Santos Ribeiro',
+        degree: 'Bacharel em Enfermagem',
+        inst: 'Universidade de São Paulo — UNICID',
+        date: 'Conclusão em 07/10/2024',
+        status: 'Ativo'
       }
     };
 

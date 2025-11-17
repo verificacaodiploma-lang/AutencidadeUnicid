@@ -231,6 +231,16 @@
         inst: 'Universidade de São Paulo — UNICID',
         date: 'Conclusão em 07/10/2024',
         status: 'Ativo'
+      },
+
+      /* Registro adicionado */
+      '56765-86': {
+        diploma: '56765-86',
+        name: 'Tatiane Carla Valdivino Gomes Silva',
+        degree: 'Pós-Graduação em Análise do Comportamento Aplicada',
+        inst: 'Universidade de São Paulo — UNICID',
+        date: 'Conclusão em 04/02/2024',
+        status: 'Ativo'
       }
     };
 

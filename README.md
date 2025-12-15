@@ -202,8 +202,17 @@
       diploma: '55578-87',
       name: 'Cassio Augusto Rosa',
       degree: 'Bacharel em Engenharia Mecatrônica',
-      inst: 'Universidade de São Paulo — UNICID',
+      inst: 'Universidade Cidade de São Paulo — UNICID',
       date: 'Conclusão em 10/08/2019',
+      status: 'Ativo'
+    },
+
+    '46566-85': {
+      diploma: '46566-85',
+      name: 'Lucelene Cristina Rodrigues da Silva Siqueira',
+      degree: 'Mestrado em Educação Especial',
+      inst: 'Universidade Cidade de São Paulo — UNICID',
+      date: 'Conclusão em 10/08/2024',
       status: 'Ativo'
     }
 
@@ -241,12 +250,12 @@
       return;
     }
 
-    document.getElementById('studentName').innerText = r.name;
-    document.getElementById('degree').innerText = r.degree;
-    document.getElementById('inst').innerText = r.inst;
-    document.getElementById('date').innerText = r.date;
-    document.getElementById('status').innerText = r.status;
-    document.getElementById('dnum').innerText = r.diploma;
+    studentName.innerText = r.name;
+    degree.innerText = r.degree;
+    inst.innerText = r.inst;
+    date.innerText = r.date;
+    status.innerText = r.status;
+    dnum.innerText = r.diploma;
 
     drawCanvas(r);
   };

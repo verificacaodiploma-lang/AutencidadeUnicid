@@ -165,7 +165,7 @@
     <div class="left">
       <div class="card">
         <div class="muted">Resultado da verificação</div>
-        <h2 id="name">—</h2>
+        <h2 id="studentName">—</h2>
         <div class="meta" id="degree">—</div>
         <div class="meta" id="inst">—</div>
         <div class="meta" id="date">—</div>
@@ -198,70 +198,6 @@
 <script>
   const records = {
 
-    '46456-64': {
-      diploma: '46456-64',
-      name: 'Zilda Felipe da Silva',
-      degree: 'Mestrado em Educação',
-      inst: 'Universidade de São Paulo — UNICID',
-      date: 'Conclusão em 15/03/2025',
-      status: 'Ativo'
-    },
-
-    '26644-64': {
-      diploma: '26644-64',
-      name: 'Ivani Felipe da Silva',
-      degree: 'Mestrado em Educação',
-      inst: 'Universidade de São Paulo — UNICID',
-      date: 'Conclusão em 10/03/2025',
-      status: 'Ativo'
-    },
-
-    '67865-76': {
-      diploma: '67865-76',
-      name: 'Elisangela Aparecida Ramos',
-      degree: 'Bacharel em Fonoaudiologia',
-      inst: 'Cruzeiro do Sul Virtual',
-      date: 'Conclusão em 16/08/2025',
-      status: 'Ativo'
-    },
-
-    '54577-75': {
-      diploma: '54577-75',
-      name: 'Jaqueline Kisandre da Silva Santana',
-      degree: 'Mestrado em Educação',
-      inst: 'Universidade UNICID São Paulo',
-      date: 'Conclusão em 10/03/2025',
-      status: 'Ativo'
-    },
-
-    '57755-42': {
-      diploma: '57755-42',
-      name: 'Josilene Santos Ribeiro',
-      degree: 'Bacharel em Enfermagem',
-      inst: 'Universidade de São Paulo — UNICID',
-      date: 'Conclusão em 07/10/2024',
-      status: 'Ativo'
-    },
-
-    '56765-86': {
-      diploma: '56765-86',
-      name: 'Tatiane Carla Valdivino Gomes Silva',
-      degree: 'Pós-Graduação em Análise do Comportamento Aplicada',
-      inst: 'Universidade de São Paulo — UNICID',
-      date: 'Conclusão em 04/02/2024',
-      status: 'Ativo'
-    },
-
-    '475446-86': {
-      diploma: '475446-86',
-      name: 'Franciele Ferreira de Melo S. Siqueira',
-      degree: 'Pós-Graduação em Estética e Aplicação de Injetáveis',
-      inst: 'Universidade de São Paulo — UNICID',
-      date: 'Conclusão em 16/12/2023',
-      status: 'Ativo'
-    },
-
-    /* 🔹 NOVO REGISTRO */
     '55578-87': {
       diploma: '55578-87',
       name: 'Cassio Augusto Rosa',
@@ -270,6 +206,7 @@
       date: 'Conclusão em 10/08/2019',
       status: 'Ativo'
     }
+
   };
 
   const canvas = document.getElementById('previewCanvas');
@@ -304,12 +241,12 @@
       return;
     }
 
-    name.innerText = r.name;
-    degree.innerText = r.degree;
-    inst.innerText = r.inst;
-    date.innerText = r.date;
-    status.innerText = r.status;
-    dnum.innerText = r.diploma;
+    document.getElementById('studentName').innerText = r.name;
+    document.getElementById('degree').innerText = r.degree;
+    document.getElementById('inst').innerText = r.inst;
+    document.getElementById('date').innerText = r.date;
+    document.getElementById('status').innerText = r.status;
+    document.getElementById('dnum').innerText = r.diploma;
 
     drawCanvas(r);
   };

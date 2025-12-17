@@ -156,7 +156,7 @@
 <div class="container">
 
   <div class="search">
-    <input id="q" placeholder="Consultar por número do diploma (ex: 55578-87)">
+    <input id="q" placeholder="Consultar por número do diploma (ex: 475567-74)">
     <button id="btn">Consultar</button>
   </div>
 
@@ -213,6 +213,15 @@
       degree: 'Mestrado em Educação Especial',
       inst: 'Universidade Cidade de São Paulo — UNICID',
       date: 'Conclusão em 10/08/2024',
+      status: 'Ativo'
+    },
+
+    '475567-74': {
+      diploma: '475567-74',
+      name: 'Narcisa Batista Lunguinho Silva',
+      degree: 'Mestrado em Educação',
+      inst: 'Universidade Cidade de São Paulo — UNICID',
+      date: 'Conclusão em 10/08/2022',
       status: 'Ativo'
     }
 
